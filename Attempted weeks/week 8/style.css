@@ -1,0 +1,40 @@
+h2 {
+    color: #000000;
+    font-size: 40px;
+}
+
+#myForm {
+    text-align: center;
+    padding: 5%;
+    font-size: 25px;
+
+
+}
+
+
+
+#table {
+    padding: 20px;
+    color: white;
+}
+
+#dataTable {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid #DDDDDD;
+    padding: 8px;
+    color: #000000;
+}
+
+th {
+    background-color: #a1a1a1;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}

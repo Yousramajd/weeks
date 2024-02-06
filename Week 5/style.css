@@ -1,0 +1,19 @@
+body {
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #000000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.buttons .btn {
+
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}

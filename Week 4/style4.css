@@ -1,0 +1,49 @@
+body {
+    padding: 2em;
+    font-family: cursive;
+    background: rgb(255, 222, 155)
+}
+
+h1 {
+    font-size: 100px;
+}
+
+nav a {
+    color: white;
+}
+
+.menu {
+    text-align: center;
+    padding: 20px;
+    background: rgb(255, 200, 90)
+}
+
+.navigation .menu {
+    justify-content: space-between;
+}
+
+.menu a {
+    font-size: 30px;
+    padding: 5px;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+.menu a:hover {
+    background: rgb(255, 177, 10);
+    border-radius: 20%;
+}
+
+.socialmedia {
+    text-align: center;
+    padding: 20px;
+}
+
+.socialmedia a {
+    background: rgb(248, 191, 76);
+    padding: 0.5em;
+}
+
+.socialmedia a:hover {
+    color: black;
+}

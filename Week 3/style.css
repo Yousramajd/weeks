@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+h1 {
+    text-align: left;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 4vw;
+}

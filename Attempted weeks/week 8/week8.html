@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Restaurant Registration Form</title>
+</head>
+
+<body>
+    <h2>Restaurant Registration Form</h2>
+
+    <form id="myForm">
+        <label for="restaurantName">Restaurant Name:</label>
+        <input type="text" id="restaurantName" name="restaurantName"><br><br>
+
+        <label for="rating">Rating out of 10:</label>
+        <input type="text" id="rating" name="rating"><br><br>
+
+        <p>Price Range:</p>
+        <input type="radio" id="r1" name="price" value="£">
+        <label for="r1">£</label>
+        <input type="radio" id="r2" name="price" value="££">
+        <label for="r2">££</label>
+        <input type="radio" id="r3" name="price" value="£££">
+        <label for="r3">£££</label>
+        <input type="radio" id="r4" name="price" value="££££">
+        <label for="r4">££££</label><br><br>
+
+        <input type="button" onclick="processFormData()" value="Submit">
+    </form>
+
+    <div id="table">
+        <h2>Database Simulation</h2>
+        <table id="dataTable">
+            <tr>
+                <th>Restaurant Name</th>
+                <th>Rating</th>
+                <th>Price Range</th>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A website for a loved one</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1 class="Question">Do you love me???</h1>
+        </div>
+        <div class="gif">
+            <img src="https://media.giphy.com/media/sXv0vaA4331Ti/giphy.gif?cid=ecf05e47i834b3eroc17pbci1ms8vbavb2v5f13vzqqpm5yw&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+                alt="Puppyeyes">
+        </div>
+        <div class="buttons">
+            <button class="btn" id="yes" onclick="yesPage()">Yes</button>
+            <button class="btn" id="no" onmouseover="moveButton()">No</button>
+            <script>
+                function yesPage() {
+                    window.location.href = "loveutoo.html";
+                }
+                function moveButton() {
+                    var x = Math.random() * (window.innerWidth - document.getElementById('no').offsetWidth);
+                    var y = Math.random() * (window.innerHeight - document.getElementById('no').offsetHeight);
+                    document.getElementById('no').style.position = 'absolute';
+                    document.getElementById('no').style.left = x + "px";
+                    document.getElementById('no').style.top = y + "px";
+                }
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>

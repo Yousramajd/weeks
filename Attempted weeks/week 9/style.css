@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+
+.parallax-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.waves-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    /* Make it twice as wide to cover the entire viewport */
+    height: 100%;
+    animation: scrollWaves 10s linear infinite;
+    /* Adjust the duration as needed */
+
+
+}
+
+#fish {
+    width: 150px;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 200px;
+    animation: swim 1s ease infinite;
+    animation-play-state: paused;
+}
+
+
+
+@keyframes swim {
+    0% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(10deg);
+    }
+}
+
+@keyframes scrollWaves {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+        /* Move it to the left by 50% of its width */
+    }
+}
